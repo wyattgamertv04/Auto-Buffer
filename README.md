@@ -31,7 +31,7 @@ To compile this mod locally using the Geode CLI:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/auto-buffer.git](https://github.com/your-username/auto-buffer.git)
+git clone [https://github.com/wyattgamertv04/auto-buffer.git](https://github.com/wyattgamertv04/auto-buffer.git)
 cd auto-buffer
 
 # Setup build directory and build
