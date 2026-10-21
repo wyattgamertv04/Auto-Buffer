@@ -1,0 +1,41 @@
+{
+  "geode": "5.7.1",
+  "gd": {
+    "win": "2.2081",
+    "mac": "2.2081",
+    "android": "2.2081"
+  },
+  "id": "wyattgamertv.auto_buffer",
+  "name": "Auto Buffer",
+  "version": "v1.0.0",
+  "developer": "WyattGamerTV",
+  "description": "Automatically buffs levels by adjusting scale, tightness, and hazards on load!",
+  "settings": {
+    "enable-mod": {
+      "name": "Enable Auto Buffer",
+      "description": "Master toggle for level buffing.",
+      "type": "bool",
+      "default": true
+    },
+    "scale-hazards": {
+      "name": "Scale Spikes & Hazards",
+      "description": "Increases the scale of spikes and hazards to tighten jump timings.",
+      "type": "bool",
+      "default": true
+    },
+    "hazard-scale-factor": {
+      "name": "Hazard Scale Multiplier",
+      "description": "How much larger to make spikes and obstacles (e.g., 1.25 = 25% bigger).",
+      "type": "float",
+      "default": 1.25,
+      "min": 1.0,
+      "max": 2.5
+    },
+    "tighten-portals": {
+      "name": "Tighten Speed/Size Portals",
+      "description": "Slightly reduces portal scale to demand tighter entrances.",
+      "type": "bool",
+      "default": false
+    }
+  }
+}
