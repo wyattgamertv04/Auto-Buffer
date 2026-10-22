@@ -5,9 +5,8 @@ on:
     branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
-  release:
-    types: [published]
+  workflow_dispatch: # Allows manual trigger from the GitHub web UI
 
 jobs:
   build:
-    uses: geode-sdk/geode-actions/.github/workflows/build.yml@main
+    uses: geode-sdk/build-geode-mod@main
